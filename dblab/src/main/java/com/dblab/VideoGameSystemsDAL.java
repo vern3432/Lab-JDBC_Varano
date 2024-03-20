@@ -1,12 +1,10 @@
 package com.dblab;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Scanner;
 
-public class ArcadeGamesDAL {
+public class VideoGameSystemsDAL {
     // Method to execute a simple statement
     public static ResultSet executeStatement(Connection connection, String query) throws SQLException {
         PreparedStatement statement = connection.prepareStatement(query);
