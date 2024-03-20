@@ -6,16 +6,16 @@ import java.sql.SQLException;
 public class DataMgr {
     // Connection to MealPlanning Database
     public static Connection getMealPlanningConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://localhost/meal_planning", "username", "password");
+        return DriverManager.getConnection("jdbc:mysql://localhost/meal_planning", "newuser1", "3634");
     }
 
     // Connection to ArcadeGames Database
     public static Connection getArcadeGamesConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://localhost/arcade_games", "username", "password");
+        return DriverManager.getConnection("jdbc:mysql://localhost/arcade_games", "newuser1", "3634");
     }
 
     // Connection to VideoGameSystems Database
     public static Connection getVideoGameSystemsConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://localhost/video_game_systems", "username", "password");
+        return DriverManager.getConnection("jdbc:mysql://localhost/video_game_systems", "newuser1", "3634");
     }
 }
