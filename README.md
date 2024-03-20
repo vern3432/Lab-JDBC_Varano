@@ -7,6 +7,6 @@ src/main/java/com/dblab/
 ArcadeGamesDAL.java: Contains the DataAccessLayer class for arcade games.
 DataMgr.java: Manages database connections and interactions.
 Main.java: Main class of the project.
-PresentationAndDataAccessLayer.java: Presentation and DataAccessLayer combined class.
+PresentationAndDataAccessLayer.java: Presentation and DataAccessLayer combined class.(Extra credit)
 PresentationLayer.java: Handles user interactions and presentation logic.
-target/classes/com/dblab/
+target/classes/com/dblab/(Main assingment)
